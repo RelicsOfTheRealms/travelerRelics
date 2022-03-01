@@ -1,36 +1,12 @@
 {
-  "name": "relics-of-the-realms-february",
-  "title": "Relics of the Realms February Collection",
-  "description": "A Compendium of D&D 5e Magic Items and Spells",
-  "version": "This is auto replaced",
-  "author": "Relics of the Realms",
-  "library": "false",
-  "manifestPlusVersion": "1.0.0",
-  "minimumCoreVersion": "0.8.0",
-  "compatibleCoreVersion": "9",
-  "dependencies": [
-
-  ],
-  "conflicts": [
-    
-  ],
-  "esmodules": [
-    "/scripts/module.js"
-  ],
-  "scripts": [
-    "/scripts/lib/lib.js"
-  ],
-  "styles": [
-    "/styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
-      "packs": [
+    "name": "relics-of-the-realms-february",
+    "title": "Relics of the Realms February Collection",
+    "description": "A Compendium of D&D 5e Magic Items and Spells",
+    "version": "1.2.0",
+    "author": "Relics of the Realms",
+    "minimumCoreVersion": "0.8.0",
+    "compatibleCoreVersion": "9",
+    "packs": [
         {
             "name": "wondrous-items",
             "label": "R&R: Wondrous Items",
@@ -60,13 +36,6 @@
             "type": "Item"
         }
     ],
-  "url": "This is auto replaced",
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
-}
+    "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+    "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+  }
