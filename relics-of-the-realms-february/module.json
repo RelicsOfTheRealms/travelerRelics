@@ -1,0 +1,41 @@
+{
+    "name": "relics-of-the-realms-may",
+    "title": "Relics of the Realms May Collection",
+    "description": "A Compendium of D&D 5e Magic Items and Spells",
+    "version": "1.4.0",
+    "author": "Relics of the Realms",
+    "minimumCoreVersion": "0.8.0",
+    "compatibleCoreVersion": "9",
+    "packs": [
+        {
+            "name": "wondrous-items",
+            "label": "R&R: Wondrous Items",
+            "path": "./packs/wondrous-items.db",
+            "entity": "Item",
+            "type": "Item"
+		},	
+{
+            "name": "armor",
+            "label": "R&R: Enchanted Armor",
+            "path": "./packs/armor.db",
+            "entity": "Item",
+            "type": "Item"
+		},			
+{
+            "name": "weapons",
+            "label": "R&R: Magical Weapons",
+            "path": "./packs/weapons.db",
+            "entity": "Item",
+            "type": "Item"
+		},					
+		{
+            "name": "spells",
+            "label": "R&R: Spells",
+            "path": "./packs/spells.db",
+            "entity": "Item",
+            "type": "Item"
+        }
+    ],
+    "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+    "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+  }
